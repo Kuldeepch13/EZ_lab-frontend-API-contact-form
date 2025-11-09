@@ -1,0 +1,19 @@
+{
+	"info": {
+		"_postman_id": "d5980575-ff06-439e-b3f1-cf280145f880",
+		"name": "EZ-API-COLLECTION",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49814266",
+		"_collection_link": "https://gamerdeepak882-6931673.postman.co/workspace/Kuldeep-Chauddhary's-Workspace~0a028678-e7d4-4086-8343-e7acd53dd205/collection/49814266-d5980575-ff06-439e-b3f1-cf280145f880?action=share&source=collection_link&creator=49814266"
+	},
+	"item": [
+		{
+			"name": "Submit Contact Form",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
