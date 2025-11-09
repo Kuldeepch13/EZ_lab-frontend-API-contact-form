@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ========= GLOBAL RESET ========= */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: #0b0b0b;
+  color: #e6e6e6;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ========= LAYOUT HELPERS ========= */
+.container {
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+/* ========= SECTION TITLES ========= */
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fafafa;
+  margin-bottom: 0.75rem;
+  position: relative;
+  letter-spacing: 0.5px;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #00e0ff, #0088ff);
+  margin-top: 0.4rem;
+  border-radius: 2px;
+}
+
+/* ========= CARD STYLING ========= */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-3px);
+}
+
+/* ========= ACCENT COLORS ========= */
+.text-accent {
+  color: #00e0ff;
+}
+
+.bg-accent {
+  background-color: #00e0ff;
+}
+
+.bg-accent:hover {
+  background-color: #00b4cc;
+  transition: background-color 0.3s ease;
+}
+
+/* ========= FORM INPUTS ========= */
+input,
+textarea {
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #00e0ff !important;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* ========= NAV & FOOTER ========= */
+nav a {
+  transition: color 0.25s ease;
+}
+
+nav a:hover {
+  color: #00e0ff;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.85);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
