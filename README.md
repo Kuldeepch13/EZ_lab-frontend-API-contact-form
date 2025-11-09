@@ -1,7 +1,7 @@
 # 🚀 EZ Labs – Frontend Assignment (Single Page)
 
 ### 🌐 Live Demo  
-[https://ez-lab-frontend-api-contact-form.vercel.app/](https://ez-lab-frontend-api-contact-form.vercel.app/)
+[https://ez-lab-frontend-api-contact-form-vc.vercel.app/](https://ez-lab-frontend-api-contact-form-vc.vercel.app/)
 
 ---
 
@@ -81,7 +81,7 @@ Copy code
 🚢 Deployment
 This project is deployed live on Vercel.
 You can view it here:
-👉 https://ez-lab-frontend-api-contact-form.vercel.app/
+👉[ https://ez-lab-frontend-api-contact-form.vercel.app/](https://ez-lab-frontend-api-contact-form-vc.vercel.app/)
 
 ⚙️ Tech Stack
 Frontend: React (Vite)
@@ -97,4 +97,5 @@ Developed by Kuldeep Chaudhary
 📧 Email: dc629753@gmail.com
 🌐 GitHub: https://github.com/Kuldeepch13
 💼 LinkedIn: https://www.linkedin.com/in/kuldeepchuadhary1311/
+
 
